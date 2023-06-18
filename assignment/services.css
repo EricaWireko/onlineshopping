@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+span{
+    color: red;
+    font-size: 30px;
+}
+
+.nav-bar{
+    background: #080808; 
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+}
+
+.nav-links{
+    font-family: "Nunito";
+    margin-left: auto;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    padding: 0 5px;
+    list-style: none;
+  }
+
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner{
+    background-image: url(./img/bag2.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 5vh;
+}
+
+.page {
+    width: 500px;
+    margin: 50px auto 0;
+  }
+  
+  form input,
+  form input:focus {
+    padding: 10px 13px;
+    border: 0;
+    outline: 0;
+  }
+  
+  form input[type="submit"] {
+    padding: 10px 15px;
+    color: #c0d6db;
+    background: #427b89;
+    text-shadow: 0 2px 2px #333;
+    box-shadow: inset 0 0 0 transparent;
+    background: #508f9f;
+    background: linear-gradient(to bottom, #508f9f 0%,#346976 100%);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+  }
+
+footer {
+    background: #1A1E25;
+    color: #868c96;
+    margin-top: 50px;
+    }
+    
+    footer p {
+    padding: 40px 0;
+    text-align: center;
+    }
+
+    .content{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+    }
+    .card{
+        flex:  200px; margin: 50px;
+        border: 1px solid #ccc;
+        box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+        text-align: center;
+    }
+    .container img{
+        max-width: 100%;
+    }
+    .texts{
+        padding: 5px; margin-bottom:10px;
+    }
+    .texts button{
+        border: none; padding: 5px 15px;
+        background: #566270; color: #fff;
+        font-weight: 600;
+        transition: all 0.3s ease-in;
+    }
+    .texts button:hover{
+        background: #E0E3DA; color: #566270; cursor: pointer;
+    }
+
+/* *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mainfooter{
+    display: flex;
+    background-color: black; 
+    justify-content: space-around;
+    padding: 5px 0;
+    color: #fff;
+}
+.mainfooter>section{
+    border: 2px solid pink;
+    width: 30%;
+}
+.mainheader{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0,50);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;font-size: larger;
+
+}
+.mainheader li{
+    display: inline;
+
+}
+.line{
+    display: block;
+    width: 90%;
+    height: 2px;
+    background-color: gray;
+    margin: auto;
+}
+.middle{
+    text-align: center;
+}
+
+.line{
+    display: block;
+    width: 90%;
+    height: 2px;
+    background-color: rgb(80, 77, 77);
+    margin:auto;
+
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.headings{
+    color: black;
+}
+.container{
+    display: flex;
+}
+.hgj{
+    color: blue;
+    display: block;
+}
+.holder{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 40px;
+
+}
+
+
+.book{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card img{
+    width: 60%;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    padding: 50px 30px;
+    width: 350px;
+    height: 28rem;
+    box-shadow: 2px 3px 20px 3px rgba(0, 0, 0, 0.411);
+}
+
+.card-content p{
+    color: #000000a2;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.card-content h1{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+button{
+    padding: 10px 20px 10px;
+    background-color: rgb(0, 0,50);
+    color: #fff;
+    margin-top: 1rem;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 50, 0.363);
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.all{
+    display: flex;
+    margin-top: 50px;
+}
+
+.fence-book img{
+    transform: scale(0.9);
+
+}
+
+.fence-content p{
+    margin-top: 50px; 
+}
+
+
+.container{
+    width: 1010px;
+    margin: auto;
+}
+
+.subcontainer{
+    width: 62%;
+    margin: auto;
+}
+
+#cookies{
+    width: 100%;
+    position: relative;
+    bottom: 10;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+
+.cookies{
+    min-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+.cookies a{
+    color: yellow;
+    font-weight: 5;
+    text-decoration: none;
+}
+
+#cookie-btn{
+    border-radius: 6px;
+    padding: 3px 8px 3px 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: black;
+    color: red;
+}
+@media(max-width:1600px){
+    .container{
+        width: 100%;
+    }
+}
+@media(max-width:1024px){
+    .cookie{
+        padding: 5px 0;
+    }
+} */
